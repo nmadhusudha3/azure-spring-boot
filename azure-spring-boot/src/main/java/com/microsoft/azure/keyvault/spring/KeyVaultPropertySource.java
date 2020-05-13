@@ -6,9 +6,9 @@
 
 package com.microsoft.azure.keyvault.spring;
 
-import org.springframework.core.env.EnumerablePropertySource;
+import org.springframework.core.env.PropertySource;
 
-public class KeyVaultPropertySource extends EnumerablePropertySource<KeyVaultOperation> {
+public class KeyVaultPropertySource extends PropertySource<KeyVaultOperation> {
 
     private final KeyVaultOperation operations;
 
